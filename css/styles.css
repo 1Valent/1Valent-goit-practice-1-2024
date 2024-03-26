@@ -1,0 +1,319 @@
+/* #region basic style */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  font-weight: 400;
+  background: #fafafa;
+
+  width: 1200px;
+  height: 5071px;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+address {
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* #endregion */
+
+/* #region common style */
+h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  color: #fff;
+}
+
+h1,
+h2 {
+  letter-spacing: -0.03em;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.orange-word {
+  color: #fd9222;
+}
+/* #endregion */
+
+/* section style */
+
+/* #region header style */
+.header {
+}
+.header-nav {
+}
+.logo {
+}
+.header-logo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.social-list {
+}
+.social-item {
+}
+.social-link {
+  width: 24px;
+  height: 24px;
+}
+/* #endregion */
+/* #region Hero*/
+.hero-section {
+  border-radius: 30px;
+  width: 1136px;
+  height: 600px;
+
+  background: rgba(17, 17, 17, 0.4);
+}
+.hero-title {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-btn {
+  background: #fd9222;
+  color: #fff;
+}
+.hero-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+/* #endregion */
+
+/* #region benefits*/
+.benefits-section {
+  background: #1e1823;
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+  color: #fff;
+}
+.benefits-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion */
+/* #region  ingridients*/
+.Ingridients-section {
+}
+.Ingridients-title {
+}
+.Ingridients-list {
+}
+.Ingridients-item {
+}
+.Ingridients-subtitle {
+}
+.chocolate,
+.cacao {
+  background: #fd9222;
+  color: #fff;
+}
+.milk,
+.raspberry,
+.sweet {
+}
+.coconut,
+.nuts {
+  background: #1e1823;
+  color: #fff;
+}
+/* #endregion */
+/* #region made*/
+.made-section {
+}
+.made-title {
+}
+.made-img {
+  rgba(17, 17, 17, 0.4);
+  border-radius: 15px;
+width: 600px;
+height: 400px;
+}
+.made-subtitle {
+}
+.made-list {
+}
+.made-item {
+}
+.made-text {
+}
+/* #endregion */
+/* #region  products*/
+.products-section {
+}
+.products-title {
+}
+.orange-word {
+}
+.products-list {
+}
+.products-item {
+}
+.products-subtitle {
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.products-text {
+  font-size: 12px;
+line-height: 1.16667;
+color: rgba(17, 17, 17, 0.7);
+}
+.products-btn {
+}
+/* #endregion */
+/* #region bestsellers*/
+.best-section {
+}
+.best-title {
+}
+.orange-word {
+}
+.best-list {
+}
+.best-item {
+}
+.best-subtitle {
+}
+/* #endregion */
+/* #region  review*/
+.review-section {
+}
+.review-title {
+}
+.orange-word {
+}
+.review-list {
+}
+.review-item {
+}
+.review-subtitle {
+}
+.review-text {
+  text-align: center;
+color: rgba(17, 17, 17, 0.7);
+}
+.review-btn {
+  font-size: 18px;
+}
+/* #endregion */
+/* #region  footer*/
+.footer-section {
+  background: #1e1823;
+}
+.footer-title {
+  color: #fff;
+  font-weight: 500;
+font-size: 28px;
+line-height: 1.21429;
+letter-spacing: -0.02em;
+}
+.footer-subtitle {
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+color: #fff;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+  fill: #fff;
+}
+.footer-address {
+}
+.address-text {
+}
+.address-tel,
+.address-mail {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-align: center;
+color: #fff;
+}
+.footer-nav {
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14286;
+letter-spacing: -0.02em;
+color: #fff;
+}
+/* #endregion */
